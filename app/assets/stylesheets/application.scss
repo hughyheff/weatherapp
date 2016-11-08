@@ -13,5 +13,25 @@
  *= require_tree .
  *= require_self
  */
-@import "boostrap-sprockets";
-@import "boostrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.well .curvy {
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	 border-top-left-radius: 5px;
+	-moz-border-radius-topright: 90px;
+	-webkit-border-top-right-radius: 90px;
+	border-top-right-radius: 90px;
+	-moz-border-radius-bottomright: 90px;
+	-webkit-border-bottom-right-radius: 90px;
+	border-bottom-right-radius: 90px;
+	-moz-border-radius-bottomleft: 90px;
+	-webkit-border-bottom-left-radius: 90px;
+	border-bottom-left-radius: 90px;
+}
+
+body {
+	font-family: 'Prociono', serif;
+	font-family: 'Coiny', cursive;
+}

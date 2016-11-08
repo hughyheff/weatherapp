@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'Boostrap-sass'
+gem 'bootstrap-sass'
 gem 'wunderground'
 gem 'httparty'
 gem 'figaro'
