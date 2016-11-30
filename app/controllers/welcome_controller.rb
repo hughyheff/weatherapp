@@ -29,15 +29,15 @@ class WelcomeController < ApplicationController
   @real_feel_c = response['current_observation']['feelslike_c']
 
   if @weather_words == "Clear"
- 			@url = "https://static.pexels.com/photos/205335/pexels-photo-205335.jpeg"
+ 			@url = ("https://static.pexels.com/photos/205335/pexels-photo-205335.jpeg")
 	elsif @weather_words == "Partly Cloudy"
- 			@url = "https://static.pexels.com/photos/227513/pexels-photo-227513.jpeg"
+ 			@url = ("https://static.pexels.com/photos/227513/pexels-photo-227513.jpeg")
   elsif @weather_words == "Rainy"
-      @url = "https://static.pexels.com/photos/110874/pexels-photo-110874.jpeg"
+      @url = ("https://static.pexels.com/photos/110874/pexels-photo-110874.jpeg")
  	elsif @weather_words == "Windy"
- 			@url = "https://static.pexels.com/photos/149671/pexels-photo-149671.jpeg"
+ 			@url = ("https://static.pexels.com/photos/149671/pexels-photo-149671.jpeg")
  	else @weather_words == "Snow"
- 			@url = "https://static.pexels.com/photos/6672/snow-forest-trees-winter.jpeg"
+ 			@url = ("https://static.pexels.com/photos/6672/snow-forest-trees-winter.jpeg")
  	end	
 end
  def test
